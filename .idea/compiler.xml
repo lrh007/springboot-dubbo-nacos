@@ -8,12 +8,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="consumer" />
         <module name="interface" />
         <module name="dubbo-provider" />
         <module name="provider" />
         <module name="dubbo-consumer" />
+        <module name="sentinel-service" />
         <module name="config" />
-        <module name="consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -25,6 +26,7 @@
       <module name="dubbo-consumer" options="-parameters" />
       <module name="dubbo-provider" options="-parameters" />
       <module name="provider" options="-parameters" />
+      <module name="sentinel-service" options="-parameters" />
     </option>
   </component>
 </project>
